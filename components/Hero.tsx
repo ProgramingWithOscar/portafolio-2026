@@ -23,15 +23,15 @@ const Hero: React.FC = () => {
             <a href="#proyectos" className="px-8 py-4 bg-white text-slate-900 font-bold rounded-xl hover:bg-slate-200 transition-all text-center">
               Ver Proyectos
             </a>
-            <a href="#contacto" className="px-8 py-4 glass-effect text-white font-bold rounded-xl hover:bg-white/10 transition-all text-center border border-white/20">
+            {/* <a href="#contacto" className="px-8 py-4 glass-effect text-white font-bold rounded-xl hover:bg-white/10 transition-all text-center border border-white/20">
               Descargar CV
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="hidden md:flex justify-end">
           <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden glass-effect border-2 border-white/5 p-4 rotate-3 hover:rotate-0 transition-transform duration-500">
             <img 
-              src="https://picsum.photos/seed/dev/800/800" 
+              src="./img/img-2.jpg" 
               alt="Oscar Poveda" 
               className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700"
             />

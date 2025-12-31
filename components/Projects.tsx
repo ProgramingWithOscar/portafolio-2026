@@ -6,20 +6,30 @@ const projects: Project[] = [
   {
     title: "Módulo de Facturación Electrónica",
     description: "Sistema integral para la generación y envío de documentos legales electrónicos ante entidades tributarias, manejando grandes volúmenes de datos.",
-    tags: ["Laravel", "PHP", "SQL Server", "REST API"],
-    role: "Full Stack Developer"
+    tags: ["Laravel", "PHP", "MySQL", "REST API"],
+    role: "Full Stack Developer",
+     url: "https://sefempresarial.com/theme/images/nfc_sef/dashboard-066.png"
   },
   {
     title: "Automatización con IA & n8n",
     description: "Flujos de trabajo automatizados que integran modelos de IA para el procesamiento de información y notificaciones en tiempo real.",
     tags: ["n8n", "Make", "IA", "API Integration"],
-    role: "Automation Lead"
+    role: "Automation Lead",
+    url: "https://upload.wikimedia.org/wikipedia/commons/5/53/N8n-logo-new.svg"
   },
   {
-    title: "Panel Administrativo Full Stack",
+    title: "Sistema de Industria y comercio",
+    description: "Plataforma de gestión empresarial para el módulo de ICA (Industria y Comercio).",
+    tags: ["Angular", "Spring boot", "TypeScript", "SQL Server", "Jenkins"],
+    role: "Full Stack Developer",
+    url: "./img/img-1.png"
+  },
+  {
+    title: "ERP contable y financiero",
     description: "Plataforma de gestión empresarial con dashboards interactivos, control de inventario y autenticación segura.",
-    tags: ["Vue.js", "Node.js", "Express", "PostgreSQL"],
-    role: "Full Stack Developer"
+    tags: ["Vue.js", "Laravel", "Javascript", "MySQL"],
+    role: "Full Stack Developer",
+    url: "https://sefempresarial.com/theme/images/nfc_sef/dashboard-066.png"
   }
 ];
 
@@ -32,7 +42,7 @@ const Projects: React.FC = () => {
           {projects.map((project, index) => (
             <div key={index} className="glass-effect rounded-3xl overflow-hidden card-hover group cursor-pointer">
               <div className="h-48 overflow-hidden bg-slate-800 relative">
-                 <img src={`https://picsum.photos/seed/project${index}/600/400`} alt={project.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-60" />
+                 <img src={`${project.url}`} alt={project.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-60" />
                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
               </div>
               <div className="p-8">

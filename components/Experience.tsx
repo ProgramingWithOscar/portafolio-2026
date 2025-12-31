@@ -12,7 +12,8 @@ const experiences: Experience[] = [
       "Desarrollo integral de módulos de Facturación Electrónica y Documento Soporte.",
       "Gestión de infraestructuras Linux y despliegue continuo (CI/CD) con Jenkins.",
       "Diseño y consumo de API REST robustas integradas con bases de datos SQL.",
-      "Trabajo bajo metodologías ágiles (SCRUM) garantizando entregas de alta calidad."
+      "Trabajo bajo metodologías ágiles (SCRUM) garantizando entregas de alta calidad.",
+      "Desarrollador Frontend y Backend."
     ]
   },
   {
